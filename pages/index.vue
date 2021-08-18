@@ -1,7 +1,34 @@
 <template>
 <div>
- <h1>Hello, welcome to my profile site this is Sota Okuda Nice to meet you</h1>
- <h3>testtesttest</h3>
- 
+  <div>
+    <h1>Welcome</h1>
+  </div>
+  <div>
+    <h2>okpn</h2>
+    <p>
+      aaaaaaaaaaaaaaaaaaaaaaaaa<br>
+      aaaaaaaaaaaaaaaaaaaaaaaaa<br>
+      aaaaaaaaaaaaaaaaaaaaaaaaa<br>
+      aaaaaaaaaaaaaaaaaaaaaaaaa<br>
+      aaaaaaaaaaaaaaaaaaaaaaaaa<br>
+      aaaaaaaaaaaaaaaaaaaaaaaaa<br>
+    </p>
+  </div>
+  <div>
+    <h2>Progress</h2>
+    <p>
+    </p>
+  </div>
+
+  <div>
+    <h2>Skills</h2>
+    <p>
+    </p>
+  </div>
+  <div>
+    <h2>Links</h2>
+    <p>
+    </p>
+  </div>
 </div>
 </template>
