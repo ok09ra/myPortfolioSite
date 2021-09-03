@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="Header">
         <nav>
             <nuxt-link to="/">Home</nuxt-link>
             <nuxt-link to="/work">Work</nuxt-link>
