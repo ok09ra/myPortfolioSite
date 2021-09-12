@@ -33,7 +33,7 @@
 
   <div id="EngineeringSection">
     <p class="ImageRight">
-      <img src="/gif/coding.gif">
+      <img src="~assets/gif/coding.gif">
     </p>
     <div class="MidBackgroundRight"></div>
     <h2 class="SectionTitleRight" data-aos="flip-down" data-aos-delay="300">Engineering</h2>
