@@ -3,7 +3,7 @@
   <div id="TopSection">
     <h1>WELCOME</h1>
     <p id= "backgroundImg">
-      <img src="/gif/head.gif">
+      <video src="/mp4/head.mp4"  loop autoplay muted></video>
     </p>
   </div>
 
