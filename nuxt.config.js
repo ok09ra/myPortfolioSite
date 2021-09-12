@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'myPortfolioSite',
+    title: 'SotaOkuda',
     htmlAttrs: {
       lang: 'en'
     },
@@ -46,6 +46,6 @@ export default {
   target: 'static',
 
   router: {
-    base: 'https://ok09ra.github.io/myPortfolioSite/'
+    base: '/myPortfolioSite/'
   }
 }
