@@ -289,9 +289,10 @@ body{
 
 .Footer > #MyPortfolioLink{
     position: absolute;
-    text-align:center;
-    color: white;
-    top: 20vh;
-    left: 45%;
-    margin:0px;
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+    top:30vh;
+    margin-left: 30%;
+    margin-right: 30%;
 }
