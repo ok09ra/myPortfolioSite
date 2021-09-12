@@ -82,47 +82,55 @@ body{
     margin-left: -960px;
 }
 
-#Myname {
+#SelfIntroduction{
     position: absolute;
-    right: 3%;
-    top: 10%;
-    margin: 0px;
-    text-align: center;
-    color:white;
-    font-size: 10rem;
+    width: 50vmax;
+    height:100vh;
+    right:5vw;
 }
 
-#ThemePhrase {
+#Myname {
     position: absolute;
-    right: 19%;
-    top: 33%;
     margin: 0px;
     text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    top:10vh;
     color:white;
-    font-size: 1rem;
+    font-size: 9vmax;
 }
 
 #MyPortfolioLink {
     position: absolute;
     display: flex;
-    width:10vw;
-    right: 22%;
-    top: 40%;
+    justify-content: space-between;
+    width:40%;
+    top:30vh;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #MyPortfolioLink > a>  img{
-    width:60%;
+    max-width:70px;
+    height: 5vh;
 }
 
 #CurrentPositions{
     position: absolute;
-    right: 18%;
-    top: 45%;
-    margin: 0px;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 40vh;
     text-align: center;
     color:white;
-    font-size: 1rem;
+    font-size: 2vmin;
+}
 
+#EngineerIntroduction{
+    position: absolute;
+    width: 50vw;
+    height:100vh;
+    left:5vw;
 }
 
 #EngineeringSkills {
@@ -140,14 +148,14 @@ body{
 #SocialSection > h3{
     position: absolute;
     color:white;
-    top: 30%;
+    bottom: 60%;
     right: 12%;
 }
 
 #SocialSection > h4{
     position: absolute;
     color:white;
-    top: 50%;
+    bottom: 45%;
     right: 10%;
 
 }
@@ -198,8 +206,8 @@ body{
     position: absolute;
     color: white;
     text-align: center;
-    font-size: 0.7rem;
-    width: 110%;
+    font-size: 0.7vmin;
+    width: 100%;
     height:10%;
     bottom:0%;
     left:-5%;
