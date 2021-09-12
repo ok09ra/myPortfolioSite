@@ -142,7 +142,7 @@
 
   <div id="ResearchSection">
     <p class="ImageRight">
-      <img src="~assets/jpg/lab.jpg" data-aos="slide-left" data-aos-delay="300">
+      <img src="~assets/jpg/lab.jpg" data-aos="slide-up" data-aos-delay="300">
     </p>
     <div class="MidBackgroundRight" style="background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1) 60%, rgba(0,0,0,0));"></div>
     <h2 class="SectionTitleRight" data-aos="flip-down" data-aos-delay="300">Research</h2>
