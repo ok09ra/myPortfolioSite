@@ -1,10 +1,13 @@
 @charset "UTF-8";
 html { 
     scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 body{
     background: #eeeeee;
+    margin:0px;
   }
 
 #TopSection{
@@ -18,8 +21,6 @@ body{
     background: #e9e390;
     position: relative;
     width: 100vw;
-    margin-top: -22px;
-    margin-left: -10px;;
     padding: 0px;
     height:100vh;
 }
@@ -28,8 +29,6 @@ body{
     position: relative;
     background: black;;
     width: 100vw;
-    margin-top: -22px;
-    margin-left: -10px;
     padding: 0px;
     height:100vh;
 }
@@ -38,8 +37,6 @@ body{
     position: relative;
     background: black;;
     width: 100vw;
-    margin-top: -22px;
-    margin-left: -10px;;
     padding: 0px;
     height:100vh;
 }
@@ -48,8 +45,6 @@ body{
     position: relative;
     background: black;;
     width: 100vw;
-    margin-top: -22px;
-    margin-left: -10px;;
     padding: 0px;
     height:100vh;
 }
@@ -58,8 +53,6 @@ body{
     position: relative;
     background: black;;
     width: 100vw;
-    margin-top: -22px;
-    margin-left: -10px;;
     padding: 0px;
     height:100vh;
 }
@@ -97,7 +90,7 @@ body{
     width: 100%;
     top:10vh;
     color:white;
-    font-size: 9vmax;
+    font-size: 8vmax;
 }
 
 #MyPortfolioLink {
@@ -105,7 +98,7 @@ body{
     display: flex;
     justify-content: space-between;
     width:40%;
-    top:30vh;
+    top:33vh;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -155,7 +148,7 @@ body{
 #SocialSection > h4{
     position: absolute;
     color:white;
-    bottom: 45%;
+    bottom: 50%;
     right: 10%;
 
 }
@@ -256,7 +249,8 @@ body{
     color:white;
     font-size: 6rem;
     width:50%;
-    bottom:2%;
+    margin: 0%;
+    bottom:5vh;
     left:6%;
 }
 
@@ -266,7 +260,8 @@ body{
     font-size: 6rem;
     text-align: right;
     width:50%;
-    bottom:2%;
+    margin: 0%;
+    bottom:5vh;
     right:6%;
 }
 
@@ -276,7 +271,6 @@ body{
     background-color: black;
     width:100vw;
     height: 40vh;
-    margin-left: -10px;
 }
 
 .Footer > p{

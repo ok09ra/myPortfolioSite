@@ -9,7 +9,7 @@
 
   <div id="IntroductionSection">
     <p class="ImageLeft">
-      <img src="~assets/jpg/myIcon.jpg" data-aos="slide-right" data-aos-delay="300">
+      <img src="~assets/jpg/myIcon.jpg" data-aos="slide-up" data-aos-delay="300">
     </p>
     <div class="MidBackgroundLeft"></div>
     <div id="SelfIntroduction">
@@ -127,7 +127,7 @@
 
   <div id="SocialSection">
     <p class="ImageLeft">
-      <img src="~assets/png/asahi-sdgs.png" data-aos="slide-right" data-aos-delay="300">
+      <img src="~assets/png/asahi-sdgs.png" data-aos="slide-up" data-aos-delay="300">
     </p>
     <div class="MidBackgroundLeft"></div>
     <h2 class="SectionTitleLeft" style="font-size:7vmax" data-aos="flip-down" data-aos-delay="300">Social Contributions</h2>
@@ -148,6 +148,5 @@
     <h2 class="SectionTitleRight" data-aos="flip-down" data-aos-delay="300">Research</h2>
     <h3>研究テーマ構築中　乞うご期待</h3>
   </div>
-
-  </div>
+</div>
 </template>

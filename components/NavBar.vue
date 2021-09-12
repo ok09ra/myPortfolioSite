@@ -8,7 +8,6 @@
                 width:100%;
                 height: 70px;
                 margin-top: -22px;
-                margin-left: -10px;
             }
             /* By Dominik Biedebach @domobch */
 
