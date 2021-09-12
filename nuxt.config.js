@@ -16,6 +16,8 @@ export default {
     ]
   },
 
+  mode: 'universal',
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     "@/assets/css/general.css"
@@ -41,6 +43,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extend (config, ctx) {
+      config.output.publicPath = '/works/myPortfolioSite/_nuxt/'
+      }
+    } 
   },
 
   target: 'static',
