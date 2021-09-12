@@ -1,26 +1,25 @@
 <template>
 <div>
-  
-  <div class="TopSection">
-    <h1>Welcome</h1>
-    <p class= "backgroundImg">
-      <img src="/jpg/myIcon.jpg">
+  <div id="TopSection">
+    <h1>WELCOME</h1>
+    <p id= "backgroundImg">
+      <img src="/gif/head.gif">
     </p>
   </div>
 
-  <div class="IntroductionSection">
-    <p id="ImageLeft">
-      <img src="/jpg/myIcon.jpg">
+  <div id="IntroductionSection">
+    <p class="ImageLeft">
+      <img src="/jpg/myIcon.jpg" data-aos="slide-right" data-aos-delay="300">
     </p>
-    <div id="MidBackgroundLeft"></div>
-    <h2 class="Myname">-okpn-</h2>
-    <h3 class="ThemePhrase">生命体とソフトウェアのエンジニアリングで<br>生命の叡智を再適用する。</h3>
-    <div class="MyPortfolioLink">
+    <div class="MidBackgroundLeft"></div>
+    <h2 id="Myname" data-aos="flip-down" data-aos-delay="300">-Sota Okuda-</h2>
+
+    <div id="MyPortfolioLink" data-aos="fade" data-aos-delay="800">
       <a href="https://twitter.com/EnOkud"><img src="/svg/twitter.svg"></a>
       <a href="https://www.facebook.com/sotaokudapn"><img src="/svg/facebook.svg"></a>
       <a href="https://github.com/ok09ra"><img src="/svg/github.svg"></a>
     </div>
-    <div class="CurrentPositions">
+    <div id="CurrentPositions" data-aos="flip-left" data-aos-delay="300">
       <h4>Current Position</h4>
       <p>早稲田大学 先進理工学部 電気・情報生命工学科 B3<br>合成生物学研究室</p>
       <p>SecHack 365 2021 思索駆動コース トレーニー</p>
@@ -32,101 +31,100 @@
     </div>
   </div>
 
-  <div class="EngineeringSection">
-    <p id="ImageRight">
+  <div id="EngineeringSection">
+    <p class="ImageRight">
       <img src="/gif/coding.gif">
     </p>
-    <div id="MidBackgroundRight"></div>
-    <h2 id="SectionTitleRight">Engineering</h2>
-    <div class="EngineeringSkills">
-
-      <div id="Skill">
+    <div class="MidBackgroundRight"></div>
+    <h2 class="SectionTitleRight" data-aos="flip-down" data-aos-delay="300">Engineering</h2>
+    <div id="EngineeringSkills" data-aos="fade-up" data-aos-delay="300">
+      <div class="Skill">
         <img  src="/svg/python.svg">
         <h3>Python</h3>
-        <p id="SkillRate">★★★★★</p>
-        <p id="AddInfo">TensorFlow/Pytorch<br>Django/Flask<br>(業務利用2年)</p>
+        <p class="SkillRate">★★★★★</p>
+        <p class="AddInfo">TensorFlow/Pytorch<br>Django/Flask<br>(業務利用2年)</p>
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/nodejs.svg">
         <h3>Node.js</h3>
-        <p id="SkillRate">★★★</p>
-        <p id="AddInfo">webpack/babel/express<br>外部API,chatbot開発<br>(業務利用１年)</p>
+        <p class="SkillRate">★★★</p>
+        <p class="AddInfo">webpack/babel/express<br>外部API,chatbot開発<br>(業務利用１年)</p>
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/unity.svg">
         <h3>Unity</h3>
-        <p id="SkillRate">★</p>
-        <p id="AddInfo">ゲーム開発初心者<br>(業務利用)</p>
+        <p class="SkillRate">★</p>
+        <p class="AddInfo">ゲーム開発初心者<br>(業務利用)</p>
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/go.svg">
         <h3>Go言語</h3>
-        <p id="SkillRate"></p>
-        <p id="AddInfo">バックエンド開発<br>スマートコントラクト開発<br>(業務利用これから)</p>
+        <p class="SkillRate"></p>
+        <p class="AddInfo">バックエンド開発<br>スマートコントラクト開発<br>(業務利用これから)</p>
       </div>
       
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/Nginx.svg">
         <h3>Nginx</h3>
-        <p id="SkillRate"></p>
-        <p id="AddInfo">バックエンド開発<br>(業務利用これから)</p>
+        <p class="SkillRate"></p>
+        <p class="AddInfo">バックエンド開発<br>(業務利用これから)</p>
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/clang.svg">
         <h3>c言語</h3>
-        <p id="SkillRate">★★</p>
-        <p id="AddInfo">ポインターの意味がわかる<br>簡単なアプリ実装<br>(趣味レベル)</p>
+        <p class="SkillRate">★★</p>
+        <p class="AddInfo">ポインターの意味がわかる<br>簡単なアプリ実装<br>(趣味レベル)</p>
       </div>
 
       
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/raspberry-pi.svg">
         <h3>Raspberry Pi</h3>
-        <p id="SkillRate">★★</p>
-        <p id="AddInfo">初めてのMy PC<br>電気回路をデジタル制御<br>(趣味レベル)</p>
+        <p class="SkillRate">★★</p>
+        <p class="AddInfo">初めてのMy PC<br>電気回路をデジタル制御<br>(趣味レベル)</p>
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/julia.svg">
         <h3>julia</h3>
-        <p id="SkillRate">★</p>
-        <p id="AddInfo">興味を持って<br>少しドキュメントを読んだ<br>(趣味歴2カ月)</p>
+        <p class="SkillRate">★</p>
+        <p class="AddInfo">興味を持って<br>少しドキュメントを読んだ<br>(趣味歴2カ月)</p>
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/tensorflow.svg">
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/django.svg">
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/vue.svg">
       </div>
 
-      <div id="Skill">
+      <div class="Skill">
         <img  src="/svg/nuxt.svg">
       </div>
     </div>
   </div>
 
-  <div class="SocialSection">
-    <p id="ImageLeft">
-      <img src="/png/asahi-sdgs.png">
+  <div id="SocialSection">
+    <p class="ImageLeft">
+      <img src="/png/asahi-sdgs.png" data-aos="slide-right" data-aos-delay="300">
     </p>
-    <div id="MidBackgroundLeft"></div>
-    <h2 id="SectionTitleLeft" style="font-size:6rem">Social Contributions</h2>
+    <div class="MidBackgroundLeft"></div>
+    <h2 class="SectionTitleLeft" style="font-size:6rem" data-aos="flip-down" data-aos-delay="300">Social Contributions</h2>
     <h3>
       早稲田大学グローバル科学知融合研究所で
       <br>SDGs、持続可能な社会についての教材開発、小学生への出前講義により
@@ -136,16 +134,14 @@
 
   </div>
 
-  <div class="ResearchSection">
-    <p id="ImageRight">
-      <img src="/jpg/myIcon.jpg">
+  <div id="ResearchSection">
+    <p class="ImageRight">
+      <img src="/jpg/lab.jpg" data-aos="slide-left" data-aos-delay="300">
     </p>
-    <div id="MidBackgroundRight"></div>
-    <h2 id="SectionTitleRight">Research</h2>
+    <div class="MidBackgroundRight" style="background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1) 60%, rgba(0,0,0,0));"></div>
+    <h2 class="SectionTitleRight" data-aos="flip-down" data-aos-delay="300">Research</h2>
     <h3>研究テーマ構築中　乞うご期待</h3>
   </div>
 
   </div>
-  
-</div>
 </template>

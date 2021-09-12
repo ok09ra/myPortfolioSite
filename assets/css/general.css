@@ -1,17 +1,20 @@
 @charset "UTF-8";
+html { 
+    scroll-behavior: smooth;
+}
 
 body{
     background: #eeeeee;
   }
 
-.TopSection{
+#TopSection{
     position: relative;
     padding: 0px;
     margin: 0px;
     height:100vh;
 }
 
-.ActivitySection{
+#ActivitySection{
     background: #e9e390;
     position: relative;
     width: 100vw;
@@ -21,7 +24,17 @@ body{
     height:100vh;
 }
 
-.IntroductionSection{
+#IntroductionSection{
+    position: relative;
+    background: black;;
+    width: 100vw;
+    margin-top: -22px;
+    margin-left: -10px;
+    padding: 0px;
+    height:100vh;
+}
+
+#EngineeringSection{
     position: relative;
     background: black;;
     width: 100vw;
@@ -31,7 +44,7 @@ body{
     height:100vh;
 }
 
-.EngineeringSection{
+#SocialSection{
     position: relative;
     background: black;;
     width: 100vw;
@@ -41,7 +54,7 @@ body{
     height:100vh;
 }
 
-.SocialSection{
+#ResearchSection{
     position: relative;
     background: black;;
     width: 100vw;
@@ -51,23 +64,16 @@ body{
     height:100vh;
 }
 
-.ResearchSection{
-    position: relative;
-    background: black;;
-    width: 100vw;
-    margin-top: -22px;
-    margin-left: -10px;;
-    padding: 0px;
-    height:100vh;
-}
-
-.TopSection h1{
+#TopSection h1{
     position: absolute;
+    width:100vw;
     text-align: center;
+    top:50%;
+    margin:0px;
     z-index: 1;
 }
 
-.backgroundImg > img{
+#backgroundImg > img{
     position: absolute;
     left: 50%;
     width:1920px;
@@ -76,9 +82,9 @@ body{
     margin-left: -960px;
 }
 
-.Myname {
+#Myname {
     position: absolute;
-    right: 15%;
+    right: 3%;
     top: 10%;
     margin: 0px;
     text-align: center;
@@ -86,7 +92,7 @@ body{
     font-size: 10rem;
 }
 
-.ThemePhrase {
+#ThemePhrase {
     position: absolute;
     right: 19%;
     top: 33%;
@@ -96,23 +102,22 @@ body{
     font-size: 1rem;
 }
 
-.MyPortfolioLink {
+#MyPortfolioLink {
     position: absolute;
     display: flex;
     width:10vw;
-    height:30vh;
-    right: 21.5%;
+    right: 22%;
     top: 40%;
 }
 
-.MyPortfolioLink > a>  img{
+#MyPortfolioLink > a>  img{
     width:60%;
 }
 
-.CurrentPositions{
+#CurrentPositions{
     position: absolute;
-    right: 18.5%;
-    top: 50%;
+    right: 18%;
+    top: 45%;
     margin: 0px;
     text-align: center;
     color:white;
@@ -120,7 +125,7 @@ body{
 
 }
 
-.EngineeringSkills {
+#EngineeringSkills {
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -129,17 +134,17 @@ body{
     width:50vw;
     height:70vh;
     left:5%;
-    top: 5%;
+    top: 10%;
 }
 
-.SocialSection > h3{
+#SocialSection > h3{
     position: absolute;
     color:white;
     top: 30%;
     right: 12%;
 }
 
-.SocialSection > h4{
+#SocialSection > h4{
     position: absolute;
     color:white;
     top: 50%;
@@ -147,21 +152,21 @@ body{
 
 }
 
-.ResearchSection > h3{
+#ResearchSection > h3{
     position: absolute;
     color:white;
     top: 30%;
     left: 12%;
 }
 
-#Skill{
+.Skill{
     position:relative;
     width:10vw;
     height:20vh;
     margin-bottom: 7%;
 }
 
-#Skill > h3{
+.Skill > h3{
     position: absolute;
     color:white;
     text-align: center;
@@ -171,7 +176,7 @@ body{
 
 }
 
-#Skill > img{
+.Skill > img{
     position: absolute;
     color:white;
     text-align: center;
@@ -180,7 +185,7 @@ body{
     font-size: 1rem;
 }
 
-#Skill > #SkillRate{
+.Skill > .SkillRate{
     position: absolute;
     color: white;
     text-align: center;
@@ -189,7 +194,7 @@ body{
     bottom: 10%;
 }
 
-#Skill > #AddInfo{
+.Skill > .AddInfo{
     position: absolute;
     color: white;
     text-align: center;
@@ -200,27 +205,27 @@ body{
     left:-5%;
 }
 
-#ImageRight{
+.ImageRight{
     position:absolute;
     top:-16px;
     right:0px;
 }
 
-#ImageRight > img{
+.ImageRight > img{
     height:100vh;
 }
 
-#ImageLeft{
+.ImageLeft{
     position:absolute;
     top:-16px;
     left:0px;
 }
 
-#ImageLeft > img{
+.ImageLeft > img{
     height:100vh;
 }
 
-#MidBackgroundRight{
+.MidBackgroundRight{
     position:absolute;
     background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1) 50%, rgba(0,0,0,0));
     width:100vw;
@@ -229,7 +234,7 @@ body{
     left:0px;
 }
 
-#MidBackgroundLeft{
+.MidBackgroundLeft{
     position:absolute;
     background: linear-gradient(to left,rgba(0,0,0,1),rgba(0,0,0,1) 50%, rgba(0,0,0,0));
     width:100vw;
@@ -238,7 +243,7 @@ body{
     right:0px;
 }
 
-#SectionTitleRight{
+.SectionTitleRight{
     position:absolute;
     color:white;
     font-size: 6rem;
@@ -247,7 +252,7 @@ body{
     left:6%;
 }
 
-#SectionTitleLeft{
+.SectionTitleLeft{
     position:absolute;
     color:white;
     font-size: 6rem;
@@ -258,79 +263,27 @@ body{
 }
 
 
-
-.card {
-    width: 350px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px #ccc;
-  }
-
-.card-img {
-border-radius: 5px 5px 0 0;
-max-width: 100%;
-height: auto;
-}
-
-.card-content {
-padding: 20px;
-}
-
-.card-title {
-font-size: 20px;
-margin-bottom: 20px;
-text-align: center;
-color: #333;
-}
-
-.card-text {
-color: #777;
-font-size: 14px;
-line-height: 1.5;
-}
-
-.card-link {
-text-align: center;
-border-top: 1px solid #eee;
-padding: 20px;
-}
-
-.card-link a {
-text-decoration: none;
-color: #0bd;
-margin: 0 10px;
-}
-
-.card-link a:hover {
-color: hsl(189, 100%, 33%);
-}
-
-.CardField{
-    display:flex;
-    justify-content: space-between;
-    padding: 10%;
-    padding-top: 5%;
-}
-
 .Footer{
-    text-align:center;
+    position:relative;
     background-color: black;
-    width:100%;
-    height: 100px;
-    margin-top: -22px;
+    width:100vw;
+    height: 40vh;
     margin-left: -10px;
 }
 
 .Footer > p{
+    position: relative;
+    text-align:center;
     color: white;
-    top: 10vh;
+    top: 20%;
+    margin:0px;
 }
-.Header{
-    position: fixed;
-    z-index: 2;
-    background: black;
-    width:100%;
-    height: 70px;
-    margin-top: -22px;
-    margin-left: -10px;
+
+.Footer > #MyPortfolioLink{
+    position: absolute;
+    text-align:center;
+    color: white;
+    top: 20vh;
+    left: 45%;
+    margin:0px;
 }
