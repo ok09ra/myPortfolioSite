@@ -3,21 +3,21 @@
   <div id="TopSection">
     <h1>WELCOME</h1>
     <p id= "backgroundImg">
-      <video src="/mp4/head.mp4"  loop autoplay muted></video>
+      <video src="~assets/mp4/head.mp4"  loop autoplay muted></video>
     </p>
   </div>
 
   <div id="IntroductionSection">
     <p class="ImageLeft">
-      <img src="/jpg/myIcon.jpg" data-aos="slide-right" data-aos-delay="300">
+      <img src="~assets/jpg/myIcon.jpg" data-aos="slide-right" data-aos-delay="300">
     </p>
     <div class="MidBackgroundLeft"></div>
     <h2 id="Myname" data-aos="flip-down" data-aos-delay="300">-Sota Okuda-</h2>
 
     <div id="MyPortfolioLink" data-aos="fade" data-aos-delay="800">
-      <a href="https://twitter.com/EnOkud"><img src="/svg/twitter.svg"></a>
-      <a href="https://www.facebook.com/sotaokudapn"><img src="/svg/facebook.svg"></a>
-      <a href="https://github.com/ok09ra"><img src="/svg/github.svg"></a>
+      <a href="https://twitter.com/EnOkud"><img src="~assets/svg/twitter.svg"></a>
+      <a href="https://www.facebook.com/sotaokudapn"><img src="~assets/svg/facebook.svg"></a>
+      <a href="https://github.com/ok09ra"><img src="~assets/svg/github.svg"></a>
     </div>
     <div id="CurrentPositions" data-aos="flip-left" data-aos-delay="300">
       <h4>Current Position</h4>
@@ -39,35 +39,35 @@
     <h2 class="SectionTitleRight" data-aos="flip-down" data-aos-delay="300">Engineering</h2>
     <div id="EngineeringSkills" data-aos="fade-up" data-aos-delay="300">
       <div class="Skill">
-        <img  src="/svg/python.svg">
+        <img  src="~assets/svg/python.svg">
         <h3>Python</h3>
         <p class="SkillRate">★★★★★</p>
         <p class="AddInfo">TensorFlow/Pytorch<br>Django/Flask<br>(業務利用2年)</p>
       </div>
 
       <div class="Skill">
-        <img  src="/svg/nodejs.svg">
+        <img  src="~assets/svg/nodejs.svg">
         <h3>Node.js</h3>
         <p class="SkillRate">★★★</p>
         <p class="AddInfo">webpack/babel/express<br>外部API,chatbot開発<br>(業務利用１年)</p>
       </div>
 
       <div class="Skill">
-        <img  src="/svg/unity.svg">
+        <img  src="~assets/svg/unity.svg">
         <h3>Unity</h3>
         <p class="SkillRate">★</p>
         <p class="AddInfo">ゲーム開発初心者<br>(業務利用)</p>
       </div>
 
       <div class="Skill">
-        <img  src="/svg/go.svg">
+        <img  src="~assets/svg/go.svg">
         <h3>Go言語</h3>
         <p class="SkillRate"></p>
         <p class="AddInfo">バックエンド開発<br>スマートコントラクト開発<br>(業務利用これから)</p>
       </div>
       
       <div class="Skill">
-        <img  src="/svg/Nginx.svg">
+        <img  src="~assets/svg/Nginx.svg">
         <h3>Nginx</h3>
         <p class="SkillRate"></p>
         <p class="AddInfo">バックエンド開発<br>(業務利用これから)</p>
@@ -77,7 +77,7 @@
       </div>
 
       <div class="Skill">
-        <img  src="/svg/clang.svg">
+        <img  src="~assets/svg/clang.svg">
         <h3>c言語</h3>
         <p class="SkillRate">★★</p>
         <p class="AddInfo">ポインターの意味がわかる<br>簡単なアプリ実装<br>(趣味レベル)</p>
@@ -85,14 +85,14 @@
 
       
       <div class="Skill">
-        <img  src="/svg/raspberry-pi.svg">
+        <img  src="~assets/svg/raspberry-pi.svg">
         <h3>Raspberry Pi</h3>
         <p class="SkillRate">★★</p>
         <p class="AddInfo">初めてのMy PC<br>電気回路をデジタル制御<br>(趣味レベル)</p>
       </div>
 
       <div class="Skill">
-        <img  src="/svg/julia.svg">
+        <img  src="~assets/svg/julia.svg">
         <h3>julia</h3>
         <p class="SkillRate">★</p>
         <p class="AddInfo">興味を持って<br>少しドキュメントを読んだ<br>(趣味歴2カ月)</p>
@@ -102,26 +102,26 @@
       </div>
 
       <div class="Skill">
-        <img  src="/svg/tensorflow.svg">
+        <img  src="~assets/svg/tensorflow.svg">
       </div>
 
       <div class="Skill">
-        <img  src="/svg/django.svg">
+        <img  src="~assets/svg/django.svg">
       </div>
 
       <div class="Skill">
-        <img  src="/svg/vue.svg">
+        <img  src="~assets/svg/vue.svg">
       </div>
 
       <div class="Skill">
-        <img  src="/svg/nuxt.svg">
+        <img  src="~assets/svg/nuxt.svg">
       </div>
     </div>
   </div>
 
   <div id="SocialSection">
     <p class="ImageLeft">
-      <img src="/png/asahi-sdgs.png" data-aos="slide-right" data-aos-delay="300">
+      <img src="~assets/png/asahi-sdgs.png" data-aos="slide-right" data-aos-delay="300">
     </p>
     <div class="MidBackgroundLeft"></div>
     <h2 class="SectionTitleLeft" style="font-size:6rem" data-aos="flip-down" data-aos-delay="300">Social Contributions</h2>
@@ -136,7 +136,7 @@
 
   <div id="ResearchSection">
     <p class="ImageRight">
-      <img src="/jpg/lab.jpg" data-aos="slide-left" data-aos-delay="300">
+      <img src="~assets/jpg/lab.jpg" data-aos="slide-left" data-aos-delay="300">
     </p>
     <div class="MidBackgroundRight" style="background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,1) 60%, rgba(0,0,0,0));"></div>
     <h2 class="SectionTitleRight" data-aos="flip-down" data-aos-delay="300">Research</h2>
