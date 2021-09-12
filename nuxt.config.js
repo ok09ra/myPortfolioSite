@@ -46,7 +46,6 @@ export default {
     extend (config, ctx) {
       config.output.publicPath = '/works/myPortfolioSite/_nuxt/'
       }
-    } 
   },
 
   target: 'static',
