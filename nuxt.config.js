@@ -46,6 +46,6 @@ export default {
   target: 'static',
 
   router: {
-    base: '/myPortoflioSite/'
+    base: 'https://github.com/ok09ra/myPortfolioSite/tree/gh-pages/'
   }
 }
